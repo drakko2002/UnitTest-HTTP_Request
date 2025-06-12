@@ -6,6 +6,7 @@ import responses
 import respx
 from httpx import Response as HxResponse
 from fastapi import HTTPException
+import fastapi
 
 # importe suas funções
 from test_Content.callback_git import fetch_access_token, get_user_organizations
