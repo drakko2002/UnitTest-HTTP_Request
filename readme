@@ -1,0 +1,20 @@
+Para clonar o repo:
+
+git clone https://github.com/…/UnitTest-HTTP_Request.git
+cd UnitTest-HTTP_Request
+
+Para criar E ativar o ambiente virtual/.venv:
+
+python -m venv .venv
+.venv\Scripts\activate     # Windows
+source .venv/bin/activate  # Linux/macOS
+
+Para instalar requisitos:
+
+pip install -r requirements.txt
+
+E para rodar os testes:
+
+pytest
+
+
