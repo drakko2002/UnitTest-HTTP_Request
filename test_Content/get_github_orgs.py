@@ -45,7 +45,7 @@ def get_github_orgs(HTTPAuthorizationCredentials = Security(security)):
             try:
                 baseUrl = f"https://api.github.com/user/orgs"
                 headers = {
-                    "Content-Type": "application/json",
+                    "test_Content-Type": "application/json",
                     "Authorization": f"Bearer {github_access_token}"
                 }
                 response = requests.get(

@@ -8,9 +8,9 @@ from httpx import Response as HxResponse
 from fastapi import HTTPException
 
 # importe suas funções
-from UnitTest-HTTP_Request.Content.callback_git.py import fetch_access_token, get_user_organizations
-from src.integrations.get_github_branches import get_github_repo_branches
-from src.integrations.get_github_orgs import get_github_orgs
+from test_Content.callback_git import fetch_access_token, get_user_organizations
+from test_Content.get_github_branches import get_github_repo_branches
+from test_Content.get_github_orgs import get_github_orgs
 
 # ================================
 # 1) Testes assíncronos (httpx)
